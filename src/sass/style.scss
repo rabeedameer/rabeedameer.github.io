@@ -1,0 +1,76 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
+html {
+  font-family: 'Crete Round','Lucida Bright',Georgia, serif;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header {
+  height: 35vh;
+  background: #343a40;
+  font-size: 1.2rem;
+}
+
+main {
+  padding-top: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: #343a40;
+  margin-bottom: 0;
+  margin-top: 1em;
+  height: 60px;
+}
+
+h2,
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px skyblue;
+}
+
+footer,
+h2,
+h3,
+header {
+  text-shadow: 5px 5px 10px #555;
+  color: #041828;
+}
+
+.active {
+  background-color: #495662;
+  border-radius: 5%;
+}
+
+a {
+  color: skyblue;
+}
+
+footer p {
+  margin-top: 0.75em;
+}
+
+li {
+  list-style-type: none;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
