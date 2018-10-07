@@ -23,11 +23,11 @@ const More = (props) => (<Fragment>
         <FontAwesomeIcon icon={faBriefcase} className="text-success display-4"/>
         <h3>Work Experience</h3>
         <ul className="text-left">
-          <li>since<time dateTime="2016">2016</time>&#58; Voluntary work in children care at the B8 Youth Club, Berlin-Moabit</li>
+          <li>since <time dateTime="2016">2016</time>&#58; Voluntary work in children care at the B8 Youth Club, Berlin-Moabit</li>
           <li>2013 – 2015: Distribution Team leader at
-            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees">UNRWA</abbr>, Hama, Syria</li>
+            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees"> UNRWA </abbr>, Hama, Syria</li>
           <li>2011 – 2013: Teacher of English language at
-            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees">UNRWA</abbr>, Hama, Syria</li>
+            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees"> UNRWA </abbr>, Hama, Syria</li>
         </ul>
       </div>
 
