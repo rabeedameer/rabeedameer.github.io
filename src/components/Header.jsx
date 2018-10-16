@@ -41,7 +41,7 @@ const Header = (props) => (<header>
   <div>
     <Nav className="justify-content-center">
       <NavItem>
-        <NavLink  to="/" tag={RRNavLink}>Home</NavLink>
+        <NavLink exact to="/" tag={RRNavLink}>Home</NavLink>
       </NavItem>
       <NavItem>
         <NavLink  to="/about" tag={RRNavLink}>About</NavLink>

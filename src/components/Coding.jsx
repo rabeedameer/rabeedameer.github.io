@@ -7,13 +7,15 @@ import {
   faSass,
   faJs,
   faReact,
-  faNode
+  faNode,
+  faNpm,
+  faEnvira
 } from '@fortawesome/free-brands-svg-icons';
 import {faBold} from '@fortawesome/free-solid-svg-icons';
 const Coding = (props) => (<Fragment>
   <div className="container-markting container">
 
-    <h2 className="h1 text-center mb-2">Languages | Frameworks | Environments</h2>
+    <h2 className="h1 text-center mb-5">Languages | Frameworks | Environments</h2>
     <div className="row">
       <div className="col-lg-3 col-md-6 p-1 text-center">
         {/* <img className="img rounded-circle" alt="html" width="150" height="150"/> */}
@@ -57,7 +59,7 @@ const Coding = (props) => (<Fragment>
       <div className="col-lg-3 col-md-6 p-1 text-center">
         {/* <img className="img rounded-circle" src="images/js.jpg" alt="javascript" width="150" height="150"/> */}
         <FontAwesomeIcon icon={faJs} className="text-warning display-4"/>
-        <h3 className="text-center ">Javascript
+        <h3 className="text-center ">Javascript(ES6)
         </h3>
 
       </div>
@@ -65,14 +67,27 @@ const Coding = (props) => (<Fragment>
       <div className="col-lg-3 col-md-6  text-center">
         {/* <img className="img rounded-circle" src="images/js.jpg" alt="javascript" width="150" height="150"/> */}
         <FontAwesomeIcon icon={faReact} className="text-primary display-4"/>
-        <h3 className="text-center ">React.js
+        <h3 className="text-center ">React.js & Redux
         </h3>
 
       </div>
       <div className="col-lg-3 col-md-6  text-center">
         {/* <img className="img rounded-circle" src="images/js.jpg" alt="javascript" width="150" height="150"/> */}
-        <FontAwesomeIcon icon={faNode} className="text-primary display-4"/>
-        <h3 className="text-center ">Node.js
+        <FontAwesomeIcon icon={faNode} className="text-success display-4"/>
+        <h3 className="text-center ">Node.js & Express
+        </h3>
+
+      </div>
+      <div className="col-lg-3 col-md-6  text-center">
+        {/* <img className="img rounded-circle" src="images/js.jpg" alt="javascript" width="150" height="150"/> */}
+        <FontAwesomeIcon icon={faNpm} className="text-warning display-4"/>
+        <h3 className="text-center ">NPM & Yarn
+        </h3>
+      </div>
+      <div className="col-lg-3 col-md-6  text-center">
+        {/* <img className="img rounded-circle" src="images/js.jpg" alt="javascript" width="150" height="150"/> */}
+        <FontAwesomeIcon icon={faEnvira} className="text-success display-4"/>
+        <h3 className="text-center ">MongoDB
         </h3>
 
       </div>
