@@ -12,7 +12,7 @@ class About extends Component {
   render() {
     return (
     <Fragment>
-      <section className="container">
+            <section className="container">
         <h2>About me</h2>
         <p>
           Hi, I’m Rabee Dameer, a junior web developer with teaching and social work experiences. 

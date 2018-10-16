@@ -41,16 +41,16 @@ const Header = (props) => (<header>
   <div>
     <Nav className="justify-content-center">
       <NavItem>
-        <NavLink exact="exact" to="/" tag={RRNavLink}>Home</NavLink>
+        <NavLink  to="/" tag={RRNavLink}>Home</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact="exact" to="/about" tag={RRNavLink}>About</NavLink>
+        <NavLink  to="/about" tag={RRNavLink}>About</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact="exact" to="/projectslist" tag={RRNavLink}>Projects</NavLink>
+        <NavLink  to="/projectslist" tag={RRNavLink}>Projects</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink exact="exact" to="/contact" tag={RRNavLink}>Contact</NavLink>
+        <NavLink  to="/contact" tag={RRNavLink}>Contact</NavLink>
       </NavItem>
     </Nav>
   </div>

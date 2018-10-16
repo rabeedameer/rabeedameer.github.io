@@ -1,21 +1,25 @@
 import React, {Fragment} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBriefcase} from '@fortawesome/free-solid-svg-icons';
-import {faThumbsUp} from '@fortawesome/free-solid-svg-icons';
-import {faBook} from '@fortawesome/free-solid-svg-icons';
-import {faGraduationCap} from '@fortawesome/free-solid-svg-icons';
-const More = (props) => (<Fragment>
-  <div className="container marketing">
-    <h2 className="text-center mb-3">More</h2>
-    <div className="row">
+import {faBriefcase,faThumbsUp,faBook, faGraduationCap} from '@fortawesome/free-solid-svg-icons';
 
-      <div className="col-lg-3 col-md-6 text-center">
-        <FontAwesomeIcon icon={faGraduationCap} className="display-4"/>
-        <h3 className="text-center">Education</h3>
-        <p className="text-left">Web Development | Digital Career Institute 2017-now | Berlin, Germany.
-        </p>
-        <p className="text-left">Bachelor degree in English literature | Al-Baath University 2004-2011 | Homs,Syria.
-        </p>
+
+
+const More = (props) => (
+ <Fragment>
+    <div className="container marketing">
+      <h2 className="text-center mb-3">More</h2>
+      <div className="row">
+        <div className="col-lg-3 col-md-6 text-center">
+          <FontAwesomeIcon icon={faGraduationCap} className="display-4"/>
+          <h3 className="text-center">Education</h3>
+         <div>
+           <dl>
+            <dt>One Year Web development Program</dt>
+            <dd>Digital Career Institute 2017-now | Berlin, Germany</dd>
+            <dt>Bachelor degree in English literature</dt>
+            <dd>Al-Baath University 2004-2011 | Homs, Syria</dd>
+          </dl>
+         </div> 
 
       </div>
 

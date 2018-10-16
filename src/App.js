@@ -21,11 +21,11 @@ class App extends Component {
           <Header/>
           <main>
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/projectslist" component={ProjectsList} />
-              <Route  path="/projectslist/:id" component={Project}/> {/*added the path as a param */}
-              <Route exact path="/contact" component={Contact} />
+            <Route  path='/' component={Home} exact />
+              <Route  path='/about' component={About} exact />
+              <Route  path='/projectslist' component={ProjectsList} exact />
+              <Route  path='/projectslist/:id' component={Project} exact/> {/*added the path as a param */}
+              <Route  path='/contact' component={Contact} exact/>
               <Route component={NotFound} />
             </Switch>
           </main>
