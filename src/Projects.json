@@ -4,7 +4,7 @@
     "imageUrl": "/images/ticTacToe.png",
     "thumbnailUrl": "/images/ticTacToe.png",
     "projectUrl": "https://github.com/rabeedameer/tic-tac-toe",
-    "tags": ["React", "javascript", "bootstrap", "sass", "css", "html"]
+    "tags": ["React", "JavaScript", "Bootstrap", "SASS", "CSS", "HTML"]
   },
   {
     "title": "Weather finder",
@@ -13,21 +13,5 @@
     "thumbnailUrl": "https://via.placeholder.com/200x200",
     "projectUrl": "https://github.com/rabeedameer/react-weather",
     "tags": ["React", "JavaScript", "Bootstrap", "SASS", "CSS", "HTML"]
-  },
-  {
-    "title": "coming soon!!",
-    "description": "",
-    "imageUrl": "https://via.placeholder.com/800x600",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
-    "projectUrl": "",
-    "tags": ["", "", "", "", "", ""]
-  },
-  {
-    "title": "coming soon!!",
-    "description": "",
-    "imageUrl": "https://via.placeholder.com/800x600",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
-    "projectUrl": "",
-    "tags": ["", "", "", "", "", ""]
   }
 ]

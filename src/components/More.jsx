@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBriefcase,faThumbsUp,faBook, faGraduationCap} from '@fortawesome/free-solid-svg-icons';
+import {faBriefcase,faThumbsUp,faBook, faGraduationCap,faUser} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -26,40 +26,46 @@ const More = (props) => (
       <div className="col-lg-3 col-md-6 text-center">
         <FontAwesomeIcon icon={faBriefcase} className="text-success display-4"/>
         <h3>Work Experience</h3>
-        <ul className="text-left">
-          <li>since <time dateTime="2016">2016</time>&#58; Voluntary work in children care at the B8 Youth Club, Berlin-Moabit</li>
-          <li>2013 – 2015: Distribution Team leader at
-            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees"> UNRWA </abbr>, Hama, Syria</li>
-          <li>2011 – 2013: Teacher of English language at
-            <abbr title="The United Nations Relief and Works Agency for Palestine Refugees"> UNRWA </abbr>, Hama, Syria</li>
-        </ul>
+        <div>
+           <dl>
+            <dt>Child Care Worker</dt>
+            <dd>Diakoniegemeinschaft Bethania e.V. 2016 - now | Berlin, Germany</dd>
+            <dt>Distribution Clerk</dt>
+            <dd><abbr title="The United Nations Relief and Works Agency for Palestine Refugees" > UNRWA</abbr>&nbsp; 2013-2015 | Hama, Syria</dd>
+            <dt>English Language Teacher</dt>
+            <dd><abbr title="The United Nations Relief and Works Agency for Palestine Refugees" > UNRWA</abbr>&nbsp; 2011-2013 | Hama, Syria</dd>
+           </dl>
+         </div>
       </div>
-
       <div className="col-lg-3 col-md-6 text-center">
-        <FontAwesomeIcon icon={faThumbsUp} className="text-danger display-4"/>
-        <h3 className="">Interests</h3>
-
-        <ul className="text-left">
-          <li>Documentaries</li>
-          <li>Football</li>
-          <li>Youtube videos</li>
-        </ul>
+        <FontAwesomeIcon icon={faUser} className="text-danger display-4"/>
+        <h3 className="">Personal Skills</h3>
+        <dl>
+          <dt>Good communication skills</dt>
+          <dt>Adaptability</dt>
+          <dt>Ability to Work Under Pressure</dt>
+          <dt>Teamwork</dt>
+          <dt>Leadership</dt>
+        </dl>
 
       </div>
-
       <div className="col-lg-3 col-md-6 text-center">
         <FontAwesomeIcon icon={faBook} className="text-primary display-4"/>
         <h3 className="">Languages</h3>
 
-        <ul className="text-left">
-          <li>Arabic: Mother language</li>
-          <li>English: Fluent</li>
-          <li>German: B2</li>
-        </ul>
+        <dl>
+          <dt>Arabic</dt>
+          <dd>Mother Tongue</dd>
+          <dt>English</dt>
+          <dd>Fluent </dd>
+          <dt>German</dt>
+          <dd>B2 level </dd>
+        </dl>
 
       </div>
+      
     </div>
   </div>
 </Fragment>);
 
-export default More;
+export default More

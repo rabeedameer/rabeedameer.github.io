@@ -16,24 +16,26 @@ class Project extends Component{
     const {id} = this.props.match.params;
     const project = projects[id] || {};
     return(
-      <div className="container-fluid">
-        <div className="m-auto">
-          <Fragment>
-            <h2>{project.title}</h2>
-            <div className="justify-content-center">
-            <img src={project.imageUrl}
-              width="50%" alt={project.title}/>
-            <p>{project.description}</p>
-            </div>
-            <div>{project.tags.map(tag =>(
-              <Badge key={tag} color="#bf9a9d" className="btn btn-secondary m-1">
-                {tag}
-              </Badge>
-            ))}</div>
-            <a href={project.projectUrl}className="btn btn-success" >See it online!</a>
-          </Fragment>
+      <Fragment>
+        <div className="container-fluid">
+          <div className="m-auto">
+            
+              <h2>{project.title}</h2>
+              <div className="justify-content-center">
+              <img src={project.imageUrl}
+                width="50%" alt={project.title}/>
+              <p>{project.description}</p>
+              </div>
+              <div>{project.tags.map(tag =>(
+                <Badge key={tag} color="#bf9a9d" className="btn btn-secondary m-1">
+                  {tag}
+                </Badge>
+              ))}</div>
+              <a href={project.projectUrl}className="btn btn-success" >See it online!</a>
+            
+          </div>
         </div>
-      </div>
+      </Fragment>
       );
   }
 }

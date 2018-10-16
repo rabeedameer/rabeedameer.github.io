@@ -17,11 +17,12 @@ class ProjectsList extends Component {
     document.title = 'Projects | Rabee\'s Portfolio';
   }
   render() {
-    return (<Row className="container m-auto">
-      {
-        projects.map((project, i) => (<Col lg="3" sm="6" xs="12" mt-1="mt-1">
-          <Card key={i}>
-            <CardBody>
+    return (
+    <Row className="container m-auto">
+      {projects.map((project, i) => (
+      <Col lg="3" sm="6" xs="12" mt-1="mt-1" key={i}>
+          <Card>
+          <CardBody>
               <CardTitle>
                 {project.title}
               </CardTitle>
@@ -29,8 +30,7 @@ class ProjectsList extends Component {
             </CardBody>
 
             <CardBody>
-              {
-                project.tags.map(tag => (<Badge key={tag} color="#bf9a9d" className="btn btn-secondary m-1">
+              {project.tags.map((tag, i) => (<Badge key={i} color="#bf9a9d" className="btn btn-secondary m-1">
                   {tag}
                 </Badge>))
               }
