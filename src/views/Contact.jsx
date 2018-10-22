@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faHome, faPhone} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faPhone , faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
   componentDidMount() {
@@ -13,37 +13,27 @@ class Contact extends Component {
           <div className="row">
             <section className="col-lg-6">
               <h2>Contact information</h2>
-              <ul>
-                <li>
-                  <div>
-                    <p>
-                      <FontAwesomeIcon icon={faHome}/>
-                      Address:
-                    </p>
-                    <address>
-                      <p>Reuchlin Str.2A, 10553</p>
-                      <p>Berlin, Germany</p>
-                    </address>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <p>
-                      <FontAwesomeIcon icon={faPhone}/>
-                      Phone:</p>
-                    <p>+491 7661 5438 84</p>
-                  </div>
-                </li>
-                <li>
-                  {/* <div>
-                <p>
-                  <FontAwesomeIcon icon={faEnvelope}/>
-                   Email:</p>
-                <p>rabee.dameer@gmail.com</p>
-              </div> */
-                  }
-                </li>
-              </ul>
+              <div className="media">
+                <span className="mr-4"><FontAwesomeIcon icon={faPhone}/></span>
+               <div className="media-body">
+                  <h5 className="mt-0">Call me</h5>
+                  <p>Mobile: <span>+49 1766 1543 884</span></p>
+               </div>
+              </div>
+              <div className="media">
+                <span className="mr-4"><FontAwesomeIcon icon={faMapMarkerAlt}/></span>
+               <div className="media-body">
+                  <h5 className="mt-0">Where to find me</h5>
+                  <p>Address: <span>Reuchlin Str. 2A 10553</span></p>
+               </div>
+              </div>
+              <div className="media">
+                <span className="mr-4"><FontAwesomeIcon icon={faEnvelope}/></span>
+               <div className="media-body">
+                  <h5 className="mt-0">Contact me </h5>
+                  <p>E-Mail: <span>rabee.dameer@gmail.com</span></p>
+               </div>
+              </div>
             </section>
             <form action="https://formspree.io/rabee.dameer@gmail.com" method="POST" className="col-lg-6">
 
