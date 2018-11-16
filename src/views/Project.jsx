@@ -30,7 +30,7 @@ class Project extends Component {
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>{project.title}</CardTitle>
+              <CardTitle className="display-4">{project.title}</CardTitle>
             </CardBody>
             <img src={project.imageUrl}
               width="100%" alt={project.title} />

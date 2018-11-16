@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Roboto|Russo+One");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6314,7 +6314,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 html {
-  font-family: 'Crete Round','Lucida Bright',Georgia, serif;
+  font-family: 'Ubuntu','Russo One','Roboto', sans-serif;
   position: relative;
   min-height: 100%; }
 

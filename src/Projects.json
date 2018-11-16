@@ -8,7 +8,7 @@
   },
   {
     "title": "Weather finder",
-    "description": "a small app to get weather forecast",
+    "description": "A simple app to get weather forecast",
     "imageUrl": "/images/weather.jpg",
     "thumbnailUrl": "/images/weather.jpg",
     "projectUrl": "https://github.com/rabeedameer/react-weather",
