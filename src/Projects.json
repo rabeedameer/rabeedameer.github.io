@@ -9,9 +9,9 @@
   {
     "title": "Weather finder",
     "description": "a small app to get weather forcast",
-    "imageUrl": "https://via.placeholder.com/800x600",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "imageUrl": "/images/weather.jpg",
+    "thumbnailUrl": "/images/weather.jpg",
     "projectUrl": "https://github.com/rabeedameer/react-weather",
-    "tags": ["React", "JavaScript", "Bootstrap", "SASS", "CSS", "HTML"]
+    "tags": ["React","Redux", "JavaScript", "Bootstrap", "CSS", "HTML"]
   }
 ]
