@@ -13,5 +13,13 @@
     "thumbnailUrl": "/images/weather.jpg",
     "projectUrl": "https://github.com/rabeedameer/react-weather",
     "tags": ["React","Redux", "JavaScript", "Bootstrap", "CSS", "HTML"]
+  },
+  {
+    "title": "Clock",
+    "description": "A simple Clock",
+    "imageUrl": "/images/clock.png",
+    "thumbnailUrl": "/images/clock.png",
+    "projectUrl": "https://github.com/rabeedameer/clock",
+    "tags": ["HTML","CSS", "JavaScript"]
   }
 ]
