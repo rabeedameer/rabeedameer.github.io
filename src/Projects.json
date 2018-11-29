@@ -21,5 +21,13 @@
     "thumbnailUrl": "/images/clock.png",
     "projectUrl": "https://github.com/rabeedameer/clock",
     "tags": ["HTML","CSS", "JavaScript"]
+  },
+  {
+    "title": "dice-game",
+    "description": "A simple JS app",
+    "imageUrl": "/images/dice.png",
+    "thumbnailUrl": "/images/dice.png",
+    "projectUrl": "https://github.com/rabeedameer/dice-game",
+    "tags": ["HTML","CSS", "JavaScript"]
   }
 ]

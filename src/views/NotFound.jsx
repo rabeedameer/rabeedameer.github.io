@@ -6,9 +6,14 @@ class NotFound extends Component{
   }
   render(){
     return(
-      <Fragment>
-        <h2>404 NOT FOUND!</h2>
-        <p>Sorry !!! what you are looking for is not here</p>
+      <Fragment className="container">
+        <div className="row">
+          <div className="m-auto">
+            <h2>404 NOT FOUND!</h2>
+            <p>Sorry !!! what you are looking for is not here</p>
+          </div>
+        
+        </div>
       </Fragment>
     );
   }
